@@ -1,4 +1,4 @@
 # diary
-备忘录miniapp
+日记本miniapp
 
 
