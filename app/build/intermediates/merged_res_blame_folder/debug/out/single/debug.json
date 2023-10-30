@@ -72,8 +72,16 @@
         "source": "C:\\Users\\Renzhi Ouyang\\.gradle\\daemon\\7.5\\com.app.diary.app-main-27:\\mipmap-xxhdpi\\note.png"
     },
     {
+        "merged": "com.app.diary.app-merged_res-25:/layout_activity_main.xml.flat",
+        "source": "com.app.diary.app-main-27:/layout/activity_main.xml"
+    },
+    {
         "merged": "C:\\Users\\Renzhi Ouyang\\.gradle\\daemon\\7.5\\com.app.diary.app-merged_res-25:\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Renzhi Ouyang\\.gradle\\daemon\\7.5\\com.app.diary.app-main-27:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.app.diary.app-merged_res-25:/layout_activity_diary_list.xml.flat",
+        "source": "com.app.diary.app-main-27:/layout/activity_diary_list.xml"
     },
     {
         "merged": "C:\\Users\\Renzhi Ouyang\\.gradle\\daemon\\7.5\\com.app.diary.app-merged_res-25:\\mipmap-xhdpi_note.png.flat",
@@ -96,12 +104,12 @@
         "source": "C:\\Users\\Renzhi Ouyang\\.gradle\\daemon\\7.5\\com.app.diary.app-main-27:\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Renzhi Ouyang\\.gradle\\daemon\\7.5\\com.app.diary.app-merged_res-25:\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Renzhi Ouyang\\.gradle\\daemon\\7.5\\com.app.diary.app-main-27:\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "com.app.diary.app-merged_res-25:/layout_activity_diary_browse.xml.flat",
+        "source": "com.app.diary.app-main-27:/layout/activity_diary_browse.xml"
     },
     {
-        "merged": "com.app.diary.app-merged_res-25:/drawable_btn_hollow.xml.flat",
-        "source": "com.app.diary.app-main-27:/drawable/btn_hollow.xml"
+        "merged": "C:\\Users\\Renzhi Ouyang\\.gradle\\daemon\\7.5\\com.app.diary.app-merged_res-25:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Renzhi Ouyang\\.gradle\\daemon\\7.5\\com.app.diary.app-main-27:\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Renzhi Ouyang\\.gradle\\daemon\\7.5\\com.app.diary.app-merged_res-25:\\layout_activity_diary_edit.xml.flat",
@@ -142,5 +150,9 @@
     {
         "merged": "C:\\Users\\Renzhi Ouyang\\.gradle\\daemon\\7.5\\com.app.diary.app-merged_res-25:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\Renzhi Ouyang\\.gradle\\daemon\\7.5\\com.app.diary.app-main-27:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "com.app.diary.app-merged_res-25:/layout_activity_diary_edit.xml.flat",
+        "source": "com.app.diary.app-main-27:/layout/activity_diary_edit.xml"
     }
 ]

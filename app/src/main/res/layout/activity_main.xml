@@ -42,7 +42,7 @@
                 android:paddingTop="20dp"
                 android:paddingEnd="30dp"
                 android:paddingBottom="20dp"
-                android:text="查看备忘录"
+                android:text="查看日记"
                 android:textColor="@color/blue_700"
                 android:textSize="26sp" />
 
@@ -56,7 +56,7 @@
                 android:paddingTop="20dp"
                 android:paddingEnd="30dp"
                 android:paddingBottom="20dp"
-                android:text="创建备忘录"
+                android:text="创建日记"
                 android:textColor="@color/blue_700"
                 android:textSize="26sp" />
 

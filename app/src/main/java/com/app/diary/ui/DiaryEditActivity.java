@@ -34,7 +34,7 @@ public class DiaryEditActivity extends BaseActivity {
 
     private static final String EXTRA_DIARY_ID = "diaryId";
 
-    private static final String[] WEATHERS = new String[]{"晴天", "雨天", "雪天"};
+    private static final String[] WEATHERS = new String[]{"晴天", "阴天","雨天", "雪天"};
 
     private Toolbar toolbar;//标题栏控件
     private TextView dateTextView;//日期文本控件

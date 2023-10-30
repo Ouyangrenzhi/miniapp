@@ -21,12 +21,9 @@
                 {
                     "source": "F:\\andriodtool\\diary\\app\\src\\main\\res\\values\\themes.xml",
                     "from": {
-                        "startLines": "27,2,-1,-1,-1",
-                        "startColumns": "4,4,-1,-1,-1",
-                        "startOffsets": "1101,17,-1,-1,-1",
-                        "endLines": "29,13,-1,-1,-1",
-                        "endColumns": "12,12,-1,-1,-1",
-                        "endOffsets": "1275,613,-1,-1,-1"
+                        "startLines": "-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1"
                     },
                     "to": {
                         "startLines": "4746,5408,5420,5421,5426",
@@ -164,9 +161,11 @@
                 {
                     "source": "F:\\andriodtool\\diary\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "40",
+                        "endOffsets": "52"
                     },
                     "to": {
                         "startLines": "1516",

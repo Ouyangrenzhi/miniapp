@@ -19,7 +19,6 @@ public class MainActivity extends BaseActivity {
     private Toolbar toolbar;//标题栏控件
     private Button browseButton;//查看日记按钮控件
     private Button createButton;//创建日记按钮控件
-   // private TextView versionTextView;//当前版本文本控件
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +35,7 @@ public class MainActivity extends BaseActivity {
         toolbar = findViewById(R.id.toolbar);
         browseButton = findViewById(R.id.browse_button);
         createButton = findViewById(R.id.create_button);
-        //versionTextView = findViewById(R.id.version_textView);
+
     }
 
     /**
@@ -68,8 +67,7 @@ public class MainActivity extends BaseActivity {
 
         });
 
-        //将当前版本名称显示在文本上
-       // versionTextView.setText("当前版本:v" + AppUtils.getVersionName());
+
     }
 
 }
