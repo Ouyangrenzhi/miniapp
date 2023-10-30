@@ -1,0 +1,104 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.app.diary"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:5:5-42:19
+12        android:name="com.app.diary.Miniapp"
+12-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:6:9-32
+13        android:allowBackup="true"
+13-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:7:9-35
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.7.0] C:\Users\Renzhi Ouyang\.gradle\caches\transforms-3\32b22ae24ddd49268bb45350efca99f0\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+15        android:dataExtractionRules="@xml/data_extraction_rules"
+15-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:8:9-65
+16        android:debuggable="true"
+17        android:fullBackupContent="@xml/backup_rules"
+17-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:9:9-54
+18        android:icon="@mipmap/ic_launcher"
+18-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:10:9-43
+19        android:label="@string/app_name"
+19-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:11:9-41
+20        android:supportsRtl="true"
+20-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.App.NoActionBar" >
+22-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:13:9-53
+23        <activity
+23-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:16:9-25:20
+24            android:name="com.app.diary.ui.MainActivity"
+24-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:17:13-44
+25            android:configChanges="orientation|keyboardHidden|screenSize"
+25-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:18:13-74
+26            android:exported="true"
+26-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:19:13-36
+27            android:screenOrientation="portrait" >
+27-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:20:13-49
+28            <intent-filter>
+28-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:21:13-24:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:22:17-69
+29-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:22:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:23:17-77
+31-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:23:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:27:9-30:52
+35            android:name="com.app.diary.ui.DiaryListActivity"
+35-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:28:13-49
+36            android:configChanges="orientation|keyboardHidden|screenSize"
+36-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:29:13-74
+37            android:screenOrientation="portrait" />
+37-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:30:13-49
+38        <activity
+38-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:32:9-35:52
+39            android:name="com.app.diary.ui.DiaryEditActivity"
+39-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:33:13-49
+40            android:configChanges="orientation|keyboardHidden|screenSize"
+40-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:34:13-74
+41            android:screenOrientation="portrait" />
+41-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:35:13-49
+42        <activity
+42-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:37:9-40:52
+43            android:name="com.app.diary.ui.DiaryBrowseActivity"
+43-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:38:13-51
+44            android:configChanges="orientation|keyboardHidden|screenSize"
+44-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:39:13-74
+45            android:screenOrientation="portrait" />
+45-->F:\andriodtool\diary\app\src\main\AndroidManifest.xml:40:13-49
+46
+47        <provider
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Renzhi Ouyang\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+48            android:name="androidx.startup.InitializationProvider"
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Renzhi Ouyang\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+49            android:authorities="com.app.diary.androidx-startup"
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Renzhi Ouyang\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+50            android:exported="false" >
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Renzhi Ouyang\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+51            <meta-data
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Renzhi Ouyang\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Renzhi Ouyang\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+53                android:value="androidx.startup" />
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Renzhi Ouyang\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+54            <meta-data
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Renzhi Ouyang\.gradle\caches\transforms-3\2244c9bd04f48de056c1159c637b1b8b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Renzhi Ouyang\.gradle\caches\transforms-3\2244c9bd04f48de056c1159c637b1b8b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+56                android:value="androidx.startup" />
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Renzhi Ouyang\.gradle\caches\transforms-3\2244c9bd04f48de056c1159c637b1b8b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+57        </provider>
+58    </application>
+59
+60</manifest>
